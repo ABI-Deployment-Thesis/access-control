@@ -10,7 +10,7 @@ app.use((req, res, next) => {
 })
 
 app.get('/', (req, res) => {
-    res.json({ message: 'Hello World' })
+    res.status(200).json({ message: 'Hello World' })
 })
 
 app.use(express.json())
