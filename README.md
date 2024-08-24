@@ -27,7 +27,7 @@ For a detailed explanation of the proposed architecture and its deployment strat
 ## Networking
 
 - Ingress
-  - Exposes a REST API on the default port 3001.
+    - Exposes a REST API on the default port 3001.
 - Egress
     - None.
 - Both
