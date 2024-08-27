@@ -14,7 +14,7 @@ const con = async function () {
 const init = async function () {
     try {
         const admin = await new User({
-            _id: new mongoose.Types.ObjectId(),
+            _id: new mongoose.Types.ObjectId("66c8d271f5b68d63c5a232c1"),
             email: 'admin@email.com',
             password: await bcrypt.hashString('admin'),
             name: 'admin'
