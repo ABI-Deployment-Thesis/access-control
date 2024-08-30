@@ -21,7 +21,7 @@ const init = async function () {
         })
         await admin.save()
     } catch (err) {
-        if (err.code === 11000 && err.keyPattern.email)
+        if (err.code === 11000)
             logger.debug('admin account already exists')
         else
             logger.error(err)
